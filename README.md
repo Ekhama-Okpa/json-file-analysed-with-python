@@ -17,16 +17,16 @@ The structure of the data in the JSON file is shown below:
     "deviceType": "CNC",
     "timestamp": 1619816400000,
     "location": {
-      "country": "japan",
-      "city": "tokyo",
-      "area": "keiyō-industrial-zone",
-      "factory": "daikibo-factory-meiyo",
-      "section": "section-1"
-    },
+        "country": "japan",
+        "city": "tokyo",
+        "area": "keiyō-industrial-zone",
+        "factory": "daikibo-factory-meiyo",
+        "section": "section-1"
+        },
     "data": {
-      "status": "healthy",
-      "temperature": 27
-    }
+        "status": "healthy",
+        "temperature": 27
+        }
 }
 
 I used Python to extract this information. Below is the link to the full JSON file:
